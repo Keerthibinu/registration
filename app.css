@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(235, 181, 235);
+}
+*{
+    box-sizing: border-box;
+}
+.container {
+    margin: auto;
+    width: 50%;
+    padding: 16px;
+    background-color: rgb(244, 244, 248);
+    box-shadow: 20px 20px 20px 0px rgba(0,0,0.7);
+}
+input[type='text'],
+input[type='password']{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: rgba(231, 227, 227, 0.973);
+}
+input[type='text']:focus,
+input[type='password']:focus{
+background-color: wheat;
+outline: none;
+}
+.registrbtn{
+    background-color: rgb(233, 194, 230);
+    padding: 16px;
+    border: none;
+    cursor:pointer;
+    width: 100%;
+    margin: auto;
+    opacity: 0.8;
+
+}
+.registrbtn:hover{
+    opacity: 1;
+}
